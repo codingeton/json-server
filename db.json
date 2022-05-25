@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "rest-assured",
+      "author": "Ravi"
+    },
+    {
+      "name": "vnr",
+      "id": "3",
+      "age": "32"
+    },
+    {
+      "author": "Jake",
+      "id": "7",
+      "title": "Java Essentials"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "doe",
+    "postId": "2"
+  },
+  "location": [
+    {
+      "id": 1,
+      "city": "Hyderabad",
+      "country": "India",
+      "address": [
+        {
+          "street": "12th Street",
+          "flat_no": "307-B",
+          "pincode": "500049",
+          "type": "primary"
+        },
+        {
+          "street": "1st Street",
+          "flat_no": "301",
+          "pincode": "500094",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "city": "Ohio",
+      "country": "USA",
+      "address": [
+        {
+          "street": "111 Street",
+          "flat_no": "3077",
+          "pincode": "0001020",
+          "type": "other"
+        }
+      ]
+    }
+  ]
+}
